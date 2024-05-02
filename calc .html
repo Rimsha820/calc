@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styl 3.css">
+    <script src="calc app.js.js"></script>
+</head>
+<body>
+    <div id="calculator">
+        
+        <input type="text" id="display" readonly class="dis" >
+        <input type="button" value="AC" onclick="resetDisplay()" class="cla">
+        <input type="button" value="DEL" onclick="clearDisplay()" class="cla">
+        <input type="button" value="+/-" onclick="toggleSign()" class="cla">
+        <input type="button" value="/" onclick="Display('/')" class="cla">
+        <br>
+
+        <input type="button" value="7" onclick="Display('7')">
+        <input type="button" value="8" onclick="Display('8')">
+        <input type="button" value="9" onclick="Display('9')">
+        <input type="button" value="*" onclick="Display('*')" class="cla">
+      
+        <br>
+        <input type="button" value="4" onclick="Display('4')">
+        <input type="button" value="5" onclick="Display('5')">
+        <input type="button" value="6" onclick="Display('6')">
+        <input type="button" value="-" onclick="Display('-')" class="cla">
+      
+        <br>
+        <input type="button" value="1" onclick="Display('1')">
+        <input type="button" value="2" onclick="Display('2')">
+        <input type="button" value="3" onclick="Display('3')">
+        <input type="button" value="+" onclick="Display('+')" class="cla">
+      
+        <br>
+        <input type="button" value="%" onclick="calculatePercentage()" >
+        <input type="button" value="0" onclick="Display('0')">
+        <input type="button" value="." onclick="Display('.')">
+        <input type="button" value="=" onclick="calculate()" class="cla1">
+        <br>
+    </div>  
+</body>
+
+</html>
+
+
+
+
